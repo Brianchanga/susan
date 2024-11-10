@@ -1,0 +1,99 @@
+
+#suzy{
+    padding: 70px;
+}
+#
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffcccb;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+
+
+
+
+.about, .gallery {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffcccb;
+    margin-top: 2rem;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    min-height: 100%; 
+    font-family:   var(--font-family-ex);
+    background-color:green;
+}
+#changa{
+    padding: 40px;
+    background-color:indigo;
+    text-align: inline;
+    display: flex;
+}
+#brian{
+   padding: 40px;
+    background-color: violet;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+#tracy{
+    padding: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    background-color: turquoise;
+}
+#tamara{
+    padding: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    background-color:lavender;
+}
